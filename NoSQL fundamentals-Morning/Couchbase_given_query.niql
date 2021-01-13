@@ -1,0 +1,23 @@
+// Question 3
+
+CREATE INDEX `idx-cric` ON `Cricket`(add) USING GSI;
+SELECT * FROM system:indexes WHERE name="idx-cric";
+SELECT AVG(runs) AS RUNS FROM `Cricket` WHERE type="batsman";
+
+
+
+
+// Question 4
+SELECT * FROM system:indexes;
+CREATE PRIMARY INDEX ON `couchbasedemo` USING GSI;
+SELECT * FROM system:indexes;
+DROP PRIMARY INDEX ON `couchbasedemo` USING GSI;
+SELECT * FROM system:indexes;
+CREATE INDEX `idx-add` ON `couchbasedemo`(add) USING GSI;
+SELECT * FROM system:indexes WHERE name="idx-add";
+
+
+
+
+
+
