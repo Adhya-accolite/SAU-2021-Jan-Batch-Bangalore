@@ -120,7 +120,7 @@ ul.job-description li:before{
     display: block;
   }
 
- 
+}
 
 @media only screen and (max-width: 576px) {
   .skills {
