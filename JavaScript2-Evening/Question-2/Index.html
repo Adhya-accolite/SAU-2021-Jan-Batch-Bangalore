@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+
+<Html>  
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>  
+    <style>
+        form {
+            font-size: larger;
+            border-color: black;
+            border-radius: 5%;
+            background-color:cadetblue ;
+
+            padding:10%;
+
+        }
+        .emphas{
+            font-weight: bold;
+        }
+        button{
+            size: 20;
+        }
+    </style>
+    <script src="scripts.js" type="text/javascript"></script>
+   
+    </head>
+    <body>
+    
+    <form name="data" action="#" onsubmit="callValidation()">
+   
+    <label class="emphas" > Roll  No  </label>
+    <input type="number" name="rollNo" id="rollNo" required/><input type="button" value="Get"  onclick="getDetails()">
+     <br> <br>  
+
+    <label class="emphas" > First Name </label>
+    <input type="text" name="firstName" id="firstName"required/>
+     <br> <br>  
+
+    <label class="emphas" > Last Name: </label>
+    <input type="text" name="lastName" id="lastName"required /> 
+    <br> <br>
+    <label class="emphas">
+        Gender :  
+    </label>
+    <br>  
+        <input  type="radio" id="male" name="gender" value="male" checked/> Male 
+        <br>  
+        <input type="radio" id="male" name="gender"value="female"/> Female
+         <br>  
+        <input type="radio" id="other" name="gender" value="other"/> Other  
+        <br>
+        <br>
+        <label class="emphas" > Date of Birth </label>
+    <input type="date" name="dob" id="dob" required/> 
+    <br> <br>
+    <label class="emphas" > Occupation </label>
+    <input type="text" name="occ" id="occ" /> 
+    <br> <br>
+    <label class="emphas">
+    Course :
+    </label>
+
+    <select name="course" id="course">
+    <option value="BA">BA</option> 
+    <option value="BSc">BSc</option>  
+    <option value="BCA">BCA</option>  
+    <option value="B.Tech">B.Tech</option> 
+   
+    <option value="B.Arch">B.Arch</option>  
+    <option value="Diploma">Diploma</option>  
+    </select>
+    <br>
+    <br>
+    
+    <input type="button" value="Save" onclick="callValidation()" />
+    <span></span>
+    <input type="submit" value="Submit"/>
+    </form>
+   
+    
+    </body>
+    </html>
