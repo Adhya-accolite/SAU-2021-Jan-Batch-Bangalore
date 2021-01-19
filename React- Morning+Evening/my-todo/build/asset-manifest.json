@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/css/main.ea1455b2.chunk.css",
+    "main.js": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/main.cef0dc70.chunk.js",
+    "main.js.map": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/main.cef0dc70.chunk.js.map",
+    "runtime-main.js": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/runtime-main.d38237bb.js",
+    "runtime-main.js.map": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/runtime-main.d38237bb.js.map",
+    "static/js/2.a501661c.chunk.js": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/2.a501661c.chunk.js",
+    "static/js/2.a501661c.chunk.js.map": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/2.a501661c.chunk.js.map",
+    "static/js/3.252639e1.chunk.js": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/3.252639e1.chunk.js",
+    "static/js/3.252639e1.chunk.js.map": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/3.252639e1.chunk.js.map",
+    "index.html": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/index.html",
+    "static/css/main.ea1455b2.chunk.css.map": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/css/main.ea1455b2.chunk.css.map",
+    "static/js/2.a501661c.chunk.js.LICENSE.txt": "/Adhya-accolite/SAU-2021-Jan-Batch-Bangalore/tree/Assignment/React-%20Morning%2BEvening/static/js/2.a501661c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d38237bb.js",
+    "static/js/2.a501661c.chunk.js",
+    "static/css/main.ea1455b2.chunk.css",
+    "static/js/main.cef0dc70.chunk.js"
+  ]
+}
