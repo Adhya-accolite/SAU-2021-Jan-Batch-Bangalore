@@ -1,0 +1,44 @@
+.todo {
+	display: flex;
+	padding: 10px 15px;
+	background-color:powderblue;
+	border-bottom: 2px solid whitesmoke;
+}
+
+.todo:nth-child(even) {
+	background-color:cornflowerblue;
+}
+
+.todo:last-of-type {
+  border-bottom: 0;
+
+}
+.todo .id {
+	flex: 1 1 50px;
+}
+
+
+.todo .name{
+	flex: 1 1 80%;
+}
+.edit .del{
+  padding: 10px;
+  margin: auto;
+  background-color:crimson
+}
+
+
+.sessionName .trainer {
+	padding: 10px 15px;
+	background-color:white;
+	font-size: 20px;
+}
+
+.todo-submit {
+  background-color:blue;
+	color: #FFF;
+	margin: 15px auto;
+  padding: 10px 15px;
+	font-size: 18px;
+	font-weight:750;
+}

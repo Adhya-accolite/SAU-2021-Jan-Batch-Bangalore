@@ -1,0 +1,21 @@
+<div class="todos">
+  <form (submit)="addSession()" style="text-align:center;">
+  <input class="sessionName" type="text" name="sessionName" placeholder="Session Name" [(ngModel)]="sessionName"/>
+  <br>
+  <input type="text" name="trainer" class="trainer" placeholder="Trainer Name"  [(ngModel)]="trainer"/>
+  <br>
+  <input type="submit" value="Add" class="todo-submit">
+</form>
+  <div class="todo" *ngFor=" let todo of todos ;
+      let i =index;" >
+      <div class="id"> {{i}}</div>
+
+      <div class="name" ><a href="https://jsonplaceholder.typicode.com/todos/{{i+1}}"  style="cursor: pointer;">{{todo.name}}</a></div>
+      <button class="edit" (click)="editSession(i)">Edit</button><span> </span>
+      <button class="del" (click)="deleteSession(i)">Delete</button>
+      </div>
+
+
+  <app-detail></app-detail>
+
+</div>
