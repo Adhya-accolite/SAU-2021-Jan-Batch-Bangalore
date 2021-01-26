@@ -1,36 +1,31 @@
 package com.accolit.hibernatespring.entities;
 
-import java.util.List;
-
-
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
+
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
-
-import javax.persistence.OneToOne;
+import javax.persistence.Id;
 
 
 
 @Entity
 public class Option {
-
+    @Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@OneToOne(cascade = CascadeType.ALL, fetch = FetchType.EAGER)
-	List< Quiz > id;
+	
+	private Integer id;
 	@Column
     private String option;
 
     @Column
     private Boolean isCorrect;
 
-    public List<Quiz> getId() {
+    public Integer getId() {
 		return id;
 	}
 
-	public void setId(List<Quiz> id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
@@ -48,10 +43,7 @@ public class Option {
 
 	public void setIsCorrect(Boolean isCorrect) {
 		this.isCorrect = isCorrect;
-	}
-
-	
-   
+	}  
 
 }
 
