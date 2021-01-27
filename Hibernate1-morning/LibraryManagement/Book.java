@@ -7,6 +7,7 @@ public class Book {
 	private String author;
 	private int pubYear;
 
+	public Book() {}
 	public Book( String title, String author, int pubYear) {
 		super();
 		
