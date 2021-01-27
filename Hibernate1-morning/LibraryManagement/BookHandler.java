@@ -28,7 +28,7 @@ public class BookHandler {
 		//booksData.updateBookByTitle("Living Being");
 		//booksData.updateBookById(2);
 		//booksData.deleteBookById(1);
-		System.out.println(booksData.getBookCount());
+		//System.out.println(booksData.getBookCount());
 	}
 
 	private void addBooktoLibrary(String title, String author, int pubYear) {
@@ -77,7 +77,7 @@ public class BookHandler {
 		try {
 			System.out.println("Available Books");
 			trans = session.beginTransaction();
-			List<Book> books = session.createQuery("FROM BooksInfo").list();
+			List<Book> books = session.createQuery("FROM Book").list();
 			for (Book result : books) {
 				System.out.print(result.getId() + " ");
 				System.out.print(result.getTitle() + " ");
